@@ -1,51 +1,29 @@
-====================================
-Chatbot - Learning History of Vietnam
-====================================
+## Chatbot - Learning History of Vietnam
 
 To used, simply:
 
-.. code-block:: bash
-
+```
     $ python input.py
-    
+```
+
 Usage
-----------------------------------------
 
-* `1. Training Characters <#1-training-characters>`_
-* `2. Training Conversation <#2-training-conversation>`_
-* `3. Training Info-Characters <#3-training-infocharacters>`_
-* `4. Training Type-Question <#4-training-typequestion>`_
+### 1. Training Characters
 
-****************************************
-1. Training Characters
-****************************************
+```
+    $ python handleCharacters.py
+```
 
-.. code-block:: bash
-
-    $ python handleCharacters.py
-
-****************************************
-2. Training Conversation
-****************************************
-
-.. code-block:: bash
-
+### 2. Training Conversation
+```
     $ python handleCommunication.py
-
-****************************************
-3. Training Info-Characters
-****************************************
-
-.. code-block:: bash
-
+```
+### 3. Training Info-Characters
+```
     $ python handleInfoCharacters.py
-
-****************************************
-4. Training Type-Question
-****************************************
-
-.. code-block:: bash
-
+```
+### 4. Training Type-Question
+```
     $ python handlleTypeQuestions.py
-
+```
     
