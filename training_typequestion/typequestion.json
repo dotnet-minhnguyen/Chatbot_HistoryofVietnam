@@ -1,0 +1,47 @@
+{
+    "typequestion": [
+        {
+            "type": "brief",
+            "patterns": [
+                "là ai",
+                "thông tin về",
+                "tóm tắt về",
+                "tiểu sử về",
+                "sơ bộ"
+            ]
+        },
+        {
+            "type": "hometown",
+            "patterns": [
+                "quê gốc của",
+                "quê hương của"
+            ]
+        },
+        {
+            "type": "birthday",
+            "patterns": [
+                "sinh ra vào ngày nào",
+                "ngày sinh là ngày nào",
+                "ngày sinh là ngày mấy",
+                "sinh ra vào ngày tháng năm nào",
+                "ngày sinh của",
+                "sinh ngày nào",
+                "sinh khi nào",
+                "ra đời khi nào",
+                "sinh ra",
+                "sinh khi",
+                "ra đời lúc",
+                "sinh ra lúc nào",
+                "ngày sinh",
+                "ngày sinh là"
+            ]
+        },
+        {
+            "type": "born",
+            "patterns": [
+                "sinh ra ở đâu",
+                "sinh ra và lớn lên ở đâu"
+            ]
+        }
+    ]
+}
