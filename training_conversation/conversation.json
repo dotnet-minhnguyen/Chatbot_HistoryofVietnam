@@ -1,0 +1,68 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Xin chào",
+                "Chào",
+                "Chào bạn",
+                "Có ai không",
+                "À nhon",
+                "Hi",
+                "Hello",
+                "2"
+            ],
+            "responses": [
+                "Xin chào",
+                "Chào bạn",
+                "Hi",
+                "Mình giúp gì được cho bạn?",
+                "Bạn cần hỏi thông tin của nhân vật lịch sử nào ?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Tạm biệt",
+                "Chào tạm biệt",
+                "Bái bai"
+            ],
+            "responses": [
+                "Cảm ơn đã sử dụng dịch vu của chúng tôi",
+                "Chúc bạn một ngày tốt lành",
+                "Tạm biệt! Hi vọng sẽ gặp lại bạn",
+                "Bye ^^"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Hay gê",
+                "Hay ha",
+                "Cảm ơn"
+            ],
+            "responses": [
+                "hihi cảm ơn",
+                "Hay không, hahah"
+            ]
+        },
+        {
+            "tag": "questions",
+            "patterns": [
+                "là ai",
+                "là gì",
+                "làm gì",
+                "khi nào",
+                "ở đâu",
+                "nào",
+                "thông tin về",
+                "chút ít dữ liệu về"
+            ],
+            "responses": [
+            ]
+        }
+    ]
+}

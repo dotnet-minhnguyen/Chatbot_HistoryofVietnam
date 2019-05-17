@@ -1,0 +1,18 @@
+{
+    "info-characters": [
+        {
+            "name": "Nguyễn Trãi",
+            "birthday": "1380",
+            "bornin": "Hà Nội",
+            "deathday": "1442",
+            "sex":"nam"
+        },
+        {
+            "name": "Lê Lợi",
+            "birthday": "10 tháng 9, 1385",
+            "bornin": "Lam Sơn",
+            "deathday": "5 tháng 9, 1433",
+            "sex":"nam"
+        }
+    ]
+}
