@@ -4,7 +4,7 @@ import tflearn
 import tensorflow as tf
 import pickle
 import json
-from cleanupSentence import bow
+from Helper import bow
 
 # # ------------------ CONVERSATION ---------------------
 data_conversation = pickle.load(

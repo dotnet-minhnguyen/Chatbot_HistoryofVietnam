@@ -4,7 +4,7 @@ import tflearn
 import tensorflow as tf
 import pickle
 import json
-from cleanupSentence import bow
+from Helper import bow
 # ------------------ TYPE QUESTION ---------------------
 data_typequestion = pickle.load(
     open("./training_typequestion/training_data", "rb"))

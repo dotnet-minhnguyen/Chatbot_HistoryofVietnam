@@ -1,16 +1,18 @@
 {
-    "info-characters": [
+    "info_characters": [
         {
             "name": "Nguyễn Trãi",
+            "brief":"Nguyễn Trãi, hiệu là Ức Trai, là người đã tham gia tích cực Khởi nghĩa Lam Sơn do Lê Lợi lãnh đạo chống lại sự xâm lược của nhà Minh với Đại Việt",
             "birthday": "1380",
-            "bornin": "Hà Nội",
+            "born": "Hà Nội",
             "deathday": "1442",
             "sex":"nam"
         },
         {
             "name": "Lê Lợi",
+            "brief":"Lê Thái Tổ tên thật là Lê Lợi, là một nhà lãnh đạo quân sự, người đã thành lập một đội quân người Việt và lãnh đạo đội quân này chiến đấu chống lại sự chiếm đóng của quân đội nhà Minh từ năm 1418 cho đến lúc đánh đuổi hoàn toàn quân Minh ra khỏi Đại Việt vào năm 1428",
             "birthday": "10 tháng 9, 1385",
-            "bornin": "Lam Sơn",
+            "born": "Lam Sơn",
             "deathday": "5 tháng 9, 1433",
             "sex":"nam"
         }

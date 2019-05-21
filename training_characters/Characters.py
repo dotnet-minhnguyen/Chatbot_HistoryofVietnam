@@ -4,7 +4,7 @@ import tflearn
 import tensorflow as tf
 import pickle
 import json
-from cleanupSentence import bow
+from Helper import bow
 # ------------------ TYPE QUESTION ---------------------
 data_characters = pickle.load(
     open("./training_characters/training_data", "rb"))
@@ -20,7 +20,7 @@ net_characters = tflearn.fully_connected(net_characters, 8)
 net_characters = tflearn.fully_connected(
     net_characters, len(train_y_characters[0]), activation='softmax')
 net_characters = tflearn.regression(net_characters, optimizer='adam',
-                         loss='categorical_crossentropy')
+                                    loss='categorical_crossentropy')
 
 model_characters = tflearn.DNN(
     net_characters, tensorboard_dir='./training_characters/tflearn_logs')
@@ -28,7 +28,8 @@ model_characters = tflearn.DNN(
 
 model_characters.load('./training_characters/model.tflearn')
 
-ERROR_THRESHOLD_ = 0.25
+ERROR_THRESHOLD_ = 0.5
+
 
 def characters(sentence):
     results = model_characters.predict(

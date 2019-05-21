@@ -5,4 +5,4 @@ print("Here we go :)) \n")
 while True:
     x = input("Human : ")
     # print(classify(x))
-    print("Bot : ", response(x.lower()))
+    print("Bot : ", response(x))

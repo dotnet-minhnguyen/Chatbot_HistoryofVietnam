@@ -2,7 +2,6 @@
 
 from underthesea import word_tokenize
 import random
-import tensorflow as tf
 import tflearn
 import numpy as np
 import json
@@ -11,12 +10,6 @@ import json
 words = []
 classes = []
 documents = []
-# stop_words = []
-
-# f = open("stopwords.txt", mode="r", encoding="utf-8")
-# for temp in f:
-#     stop_words.append(temp.rstrip('\n'))
-# f.close()
 
 with open('conversation.json', encoding='utf-8') as json_data_conversation:
     intents = json.load(json_data_conversation)
