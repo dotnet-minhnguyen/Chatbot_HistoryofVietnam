@@ -63,7 +63,7 @@ python-crfsuite==0.9.6
 python-dateutil==2.8.0
 pytz==2018.9
 pyvi==0.0.9.3
-PyYAML==3.13
+PyYAML==4.2b1
 queuelib==1.5.0
 requests==2.21.0
 requests-file==1.4.3
