@@ -2,7 +2,7 @@
 
 Usage :
 
-**Consonle**
+**Console**
 
 ```
     $ python input.py
