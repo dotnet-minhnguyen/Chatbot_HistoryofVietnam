@@ -1,24 +1,372 @@
 {
     "characters": [
         {
-            "name": "Nguyễn Trãi",
-            "patterns": [
-                "Ức Trai",
-                "Nguyễn Trãi",
-                "Nguyen Trai",
-                "uc trai"
+            "name":"An Dương Vương",
+            "patterns":[
+                "An Dương Vương",
+                "An Dương vương",
+                "An dương Vương",
+                "An dương vương",
+                "an Dương Vương",
+                "an Dương vương",
+                "an dương Vương",
+                "an dương vương",
+                "An Duong Vuong",
+                "Thục Phán",
+                "Thục phán",
+                "thục Phán",
+                "thục phán"
             ]
         },
         {
-            "name": "Lê Lợi",
-            "patterns": [
-                "Lê Lợi",
+            "name":"Cao Bá Quát",
+            "patterns":[
+                "Cao Bá Quát",
+                "Cao Bá quát",
+                "Cao bá Quát",
+                "Cao bá quát",
+                "cao Bá Quát",
+                "cao Bá quát",
+                "cao bá Quát",
+                "cao bá quát",
+                "Cao Ba Quat",
+                "Chu Thần",
+                "Chu thần",
+                "chu Thần",
+                "chu thần",
+                "Chu Than",
+                "Cúc Đường",
+                "Cúc đường",
+                "cúc Đường",
+                "cúc đường",
+                "Mẫn Hiên",
+                "Mẫn hiên",
+                "mẫn Hiên",
+                "mẫn hiên",
+                "quân sư trong cuộc nổi dậy Mỹ Lương",
+                "Cao Tử",
+                "Cao tử",
+                "cao Tử",
+                "cao tử",
+                "Cao Chu Thần",
+                "Cao Chu thần",
+                "Cao chu Thần",
+                "Cao chu thần",
+                "cao Chu Thần",
+                "cao Chu thần",
+                "cao chu Thần",
+                "cao chu thần",
+                "Cao Chu Than"
+            ]
+        },
+        {
+            "name":"Đinh Bộ Lĩnh",
+            "patterns":[
+                "Đinh Bộ Lĩnh",
+                "Đinh Bộ lĩnh",
+                "Đinh bộ Lĩnh",
+                "Đinh bộ lĩnh",
+                "đinh Bộ Lĩnh",
+                "đinh Bộ lĩnh",
+                "đinh bộ Lĩnh",
+                "đinh bộ lĩnh",
+                "Dinh Bo Linh",
+                "Đinh Tiên Hoàng",
+                "Đinh Tiên hoàng",
+                "Đinh tiên Hoàng",
+                "Đinh tiên hoàng",
+                "đinh Tiên Hoàng",
+                "đinh Tiên hoàng",
+                "đinh tiên Hoàng",
+                "đinh tiên hoàng",
+                "Dinh Tien Hoang",
+                "Đinh Hoàn",
+                "Đinh hoàn",
+                "đinh Hoàn",
+                "đinh hoàn",
+                "Dinh Hoan",
+                "Đại Thắng Minh Hoàng Đế",
+                "Tiên Hoàng Đế",
+                "Tiên Hoàng đế",
+                "Tiên hoàng Đế",
+                "Tiên hoàng đế",
+                "tiên Hoàng Đế",
+                "tiên Hoàng đế",
+                "tiên hoàng Đế",
+                "tiên hoàng đế",
+                "Tien Hoang De"
+            ]
+        },
+        {
+            "name":"Hồ Chí Minh",
+            "patterns":[
+                "Hồ Chủ Tịch",
+                "Hồ Chủ tịch",
+                "Hồ chủ Tịch",
+                "Hồ chủ tịch",
+                "hồ Chủ Tịch",
+                "hồ Chủ tịch",
+                "hồ chủ Tịch",
+                "hồ chủ tịch",
+                "Ho Chu Tich",
+                "Nguyễn Sinh Cung",
+                "Nguyễn Sinh cung",
+                "Nguyễn sinh Cung",
+                "Nguyễn sinh cung",
+                "nguyễn Sinh Cung",
+                "nguyễn Sinh cung",
+                "nguyễn sinh Cung",
+                "nguyễn sinh cung",
+                "Nguyen Sinh Cung",
+                "Nguyễn Tất Thành",
+                "Nguyễn Tất thành",
+                "Nguyễn tất Thành",
+                "Nguyễn tất thành",
+                "nguyễn Tất Thành",
+                "nguyễn Tất thành",
+                "nguyễn tất Thành",
+                "nguyễn tất thành",
+                "Nguyen Tat Thanh",
+                "Paul Tất Thành",
+                "Paul Tất thành",
+                "Paul tất Thành",
+                "Paul tất thành",
+                "paul Tất Thành",
+                "paul Tất thành",
+                "paul tất Thành",
+                "paul tất thành",
+                "Paul Tat Thanh",
+                "Nguyễn Ái Quốc",
+                "Nguyễn Ái quốc",
+                "Nguyễn ái Quốc",
+                "Nguyễn ái quốc",
+                "nguyễn Ái Quốc",
+                "nguyễn Ái quốc",
+                "nguyễn ái Quốc",
+                "nguyễn ái quốc",
+                "Nguyen Ai Quoc",
+                "Lý Thụy",
+                "Lý thụy",
+                "lý Thụy",
+                "lý thụy",
+                "Tống Văn Sơ",
+                "Tống Văn sơ",
+                "Tống văn Sơ",
+                "Tống văn sơ",
+                "tống Văn Sơ",
+                "tống Văn sơ",
+                "tống văn Sơ",
+                "tống văn sơ",
+                "Văn Ba",
+                "Văn ba",
+                "văn Ba",
+                "văn ba"
+            ]
+        },
+        {
+            "name":"Hồ Quý Ly",
+            "patterns":[
+                "Hồ Quý Ly",
+                "Hồ Quý ly",
+                "Hồ quý Ly",
+                "Hồ quý ly",
+
+                "hồ Quý Ly",
+                "hồ Quý ly",
+                "hồ quý Ly",
+                "hồ quý ly",
+
+                "Ho Quy Ly",
+
+                "Hồ Nhất Nguyên",
+                "Hồ Nhất nguyên",
+                "Hồ nhất Nguyên",
+                "Hồ nhất nguyên",
+
+                "hồ Nhất Nguyên",
+                "hồ Nhất nguyên",
+                "hồ nhất Nguyên",
+                "hồ nhất nguyên",
+
+                "Ho Nhat Nguyen",
+
+                "Lê Quý Ly",
+                "Lê Quý ly",
+                "Lê quý Ly",
+                "Lê quý ly",
+
+                "lê Quý Ly",
+                "lê Quý ly",
+                "lê quý Ly",
+                "lê quý ly",
+
+                "Le Quy Ly",
+
+                "Hồ Nhất Nguyên",
+                "Hồ Nhất nguyên",
+                "Hồ nhất Nguyên",
+                "Hồ nhất nguyên",
+
+                "hồ Nhất Nguyên",
+                "hồ Nhất nguyên",
+                "hồ nhất Nguyên",
+                "hồ nhất nguyên",
+
+                "Ho Nhat Nguyen",
+
+                "Khâm đức Hưng liệt Đại vương",
+                "kham duc huong liẹt dai vuong",
+                "Phụ chính Cai giáo Hoàng đế",
+                "phu chinh cai giao hoang de",
+                "Quốc tổ Chương hoàng",
+                "quoc to chuong hoang"
+            ]
+        },
+        {
+            "name":"Lê Đại Hành",
+            "patterns":[
+                "Lê Đại Hành",
+                "Lê Đại hành",
+                "Lê đại Hành",
+                "Lê đại hành",
+
+                "lê Đại Hành",
+                "lê Đại hành",
+                "lê đại Hành",
+                "lê đại hành",
+
+                "Le Dai Hanh",
+                "Le Dai hanh",
+                "Le dai Hanh",
+                "Le dai hanh",
+
+                "le Dai Hanh",
+                "le Dai hanh",
+                "le dai Hanh",
+                "le dai hanh",
+                
+
+                "Hoàng đế Đại Cồ Việt",
+                "Hoàng đế Đại Cồ việt",
+                "Hoàng đế Đại cồ Việt",
+                "Hoàng đế Đại cồ việt",
+
+                "Hoàng đế đại Cồ Việt",
+                "Hoàng đế đại Cồ việt",
+                "Hoàng đế đại cồ Việt",
+                "Hoàng đế đại cồ việt",
+
+                "Hoang De Dai Co Viet",
+                
+                "Lê Hoàn",
+                "lê hoàn",
+
+                "Đại Hành Hoàng đế",
+                "Đại hành Hoàng đế",
+                "đại Hành Hoàng đế",
+                "đại hành Hoàng đế",
+
+                "Thiên Phúc",
+                "thiên phúc",
+                "Hưng Thống",
+                "hưng thống",
+                "Ứng Thiên",
+                "ứng thiên",
+                "Minh Càn Ứng Vận Thần Vũ Thăng Bình Chí Nhân Quảng Hiếu Hoàng đế"
+            ]
+        },
+        {
+            "name":"Lê Thái Tổ",
+            "patterns":[
                 "Lê Thái Tổ",
-                "Le thai to",
-                "le lợi",
+                "Lê Thái tổ",
+                "Lê thái Tổ",
+                "Lê thái tổ",
+
+                "lê Thái Tổ",
+                "lê Thái tổ",
+                "lê thái Tổ",
+                "lê thái tổ",
+                
+                "Le Thai To",
+
+                "Lê Lợi",
+                "Lê lợi",
+                "lê Lợi",
+                "lê lợi",
+                
+                "Hoàng đế Đại Việt",
+                "Hoàng đế Đại việt",
+                "Hoàng đế đại Việt",
+                "Hoàng đế đại việt",
+
+                
                 "Lam Sơn động chủ",
-                "Thuận Thiên",
-                "Cao Hoàng đế"
+                "lam sơn động chủ",
+
+                "Thống Thiên Khải Vận Thánh Đức Thần Công Duệ Văn Anh Vũ Khoan Minh Dũng Trí Hoàng Nghĩa Chí Minh Đại Hiếu Cao Hoàng đế"
+            ]
+        },
+        {
+            "name": "Nguyễn Trãi",
+            "patterns": [
+                "Ức Trai",
+                "Ức trai",
+                "ức Trai",
+                "ức trai",
+                "Uc Trai",
+
+                "Nguyễn Trãi",
+                "nguyễn trãi",
+                "nguyễn Trãi",
+                "Nguyễn trãi",
+                "Nguyen Trai"
+            ]
+        },
+        {
+            "name":"Nguyễn Thị Minh Khai",
+            "patterns":[
+                "Nguyễn Thị Minh Khai",
+                "Nguyễn Thị minh Khai",
+                "Nguyễn thị Minh Khai",
+                "Nguyễn thị minh Khai",
+
+                "Nguyễn Thị Minh khai",
+                "Nguyễn Thị minh khai",
+                "Nguyễn thị Minh khai",
+                "Nguyễn thị minh khai",
+
+                "nguyễn Thị Minh Khai",
+                "nguyễn Thị minh Khai",
+                "nguyễn thị Minh Khai",
+                "nguyễn thị minh Khai",
+
+                "nguyễn Thị Minh khai",
+                "nguyễn Thị minh khai",
+                "nguyễn thị Minh khai",
+                "nguyễn thị minh khai",
+
+                "Nguyen Thi Minh Khai",
+
+                "Nguyễn thị Vịnh",
+                "Nguyễn Thị vịnh",
+                "Nguyễn thị vịnh",
+                "Nguyễn Thị Vịnh",
+
+                "nguyễn thị Vịnh",
+                "nguyễn Thị vịnh",
+                "nguyễn thị vịnh",
+                "nguyễn Thị Vịnh",
+
+                "Nguyen Thi Vinh",
+                "Nguyen Thi vinh",
+                "Nguyen thi Vinh",
+                "Nguyen thi vinh",
+
+                "nguyen Thi Vinh",
+                "nguyen Thi vinh",
+                "nguyen thi Vinh",
+                "nguyen thi vinh"
             ]
         }
     ]

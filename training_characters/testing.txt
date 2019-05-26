@@ -1,0 +1,22 @@
+﻿Dạng câu :
+	- thông tin(tóm tắt tiểu sử)            -> [Type] : brief
+	- nơi sinh				-> [Type] : born
+	- ngày sinh				-> [Type] : birthday
+	- ngày mất				-> [Type] : died
+	- trình độ học vấn			-> [Type] : education
+	- nổi tiếng về (được biết đến)		-> [Type] : knownfor
+	- vợ chồng				-> [Type] : spouses
+	- con cái				-> [Type] : children
+	- giải thưởng/ thành tựu		-> [Type] : awards
+	- lĩnh vực				-> [Type] : fields
+	- bố mẹ (phụ huynh)			-> [Type] : parents
+	- nguyên nhân mất			-> [Type] : causeofdeath
+	- câu nói nổi tiếng			-> [Type] : thesentences
+	- biến cố				-> [Type] : incident
+	- công trình/tác phẩm tiêu biểu		-> [Type] : typicalworks
+	- thời kì lịch sử		-> [Type] : age
+
+- ex: 
+	Input : Nguyễn Trãi là ai?
+	Output : [Type] : brief
+

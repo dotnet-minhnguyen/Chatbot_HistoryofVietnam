@@ -28,7 +28,7 @@ model_typequestion = tflearn.DNN(
 
 model_typequestion.load('./training_typequestion/model.tflearn')
 
-ERROR_THRESHOLD_ = 0.25
+ERROR_THRESHOLD_ = 0.5
 
 def typeQuestion(sentence):
     results = model_typequestion.predict(

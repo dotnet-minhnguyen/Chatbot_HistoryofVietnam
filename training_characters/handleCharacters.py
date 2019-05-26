@@ -17,13 +17,12 @@ with open('characters.json', encoding='utf-8') as json_data_characters:
 for intent in intents['characters']:
     for pattern in intent['patterns']:
         w = word_tokenize(pattern)
-
         words.extend(w)
         documents.append((w, intent['name']))
         if intent['name'] not in classes:
             classes.append(intent['name'])
 
-words = [w.lower() for w in words]
+# words = [w.lower() for w in words]
 words = sorted(list(set(words)))
 
 classes = sorted(list(set(classes)))
