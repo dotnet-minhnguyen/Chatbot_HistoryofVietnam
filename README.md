@@ -73,11 +73,7 @@ Training data :
 ```
     $ python handleCommunication.py
 ```
-### 3. Training Info-Characters
-```
-    $ python handleInfoCharacters.py
-```
-### 4. Training Type-Question
+### 3. Training Type-Question
 ```
     $ python handlleTypeQuestions.py
 ```
