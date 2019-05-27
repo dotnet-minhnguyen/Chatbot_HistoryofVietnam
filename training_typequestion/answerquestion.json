@@ -1,0 +1,106 @@
+{
+    "answerquestion": [
+        {
+            "type": "brief",
+            "patterns": [
+                ""
+            ]
+        },
+        {
+            "type": "born",
+            "patterns": [
+                "sinh ra ở "
+            ]
+        },
+        {
+            "type": "birthday",
+            "patterns": [
+                "sinh "
+            ]
+        },
+        {
+            "type": "died",
+            "patterns": [
+                "mất "
+            ]
+        },
+        {
+            "type":"position",
+            "patterns":[
+                "chức vụ là "
+            ]
+        },
+        {
+            "type": "education",
+            "patterns": [
+                "công việc "
+            ]
+        },
+        {
+            "type": "knownfor",
+            "patterns": [
+                "được biết đến là "
+            ]
+        },
+        {
+            "type": "spouses",
+            "patterns": [
+                ""
+            ]
+        },
+        {
+            "type": "awards",
+            "patterns": [
+                "thành tựu là "
+            ]
+        },
+        {
+            "type": "fields",
+            "patterns": [
+                "lĩnh vực là "
+            ]
+        },
+        {
+            "type": "parents",
+            "patterns": [
+                ""
+            ]
+        },
+        {
+            "type": "childrens",
+            "patterns": [
+                "có con là "
+            ]
+        },
+        {
+            "type": "causeofdeath",
+            "patterns": [
+                "nguyên nhân mất là "
+            ]
+        },
+        {
+            "type": "thesentences",
+            "patterns": [
+                "câu nói nổi tiếng là "
+            ]
+        },
+        {
+            "type": "incident",
+            "patterns": [
+                "biến cố xảy ra là "
+            ]
+        },
+        {
+            "type": "typicalworks",
+            "patterns": [
+                "tác phẩm/công trình nổi tiếng là "
+            ]
+        },
+        {
+            "type": "age",
+            "patterns":[
+                "thuộc thời kì : "
+            ]
+        }
+    ]
+}

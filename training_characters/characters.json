@@ -100,6 +100,16 @@
         {
             "name":"Hồ Chí Minh",
             "patterns":[
+                "Hồ Chí Minh",
+                "Hồ Chí minh",
+                "Hồ chí Minh",
+                "Hồ chí minh",
+                "hồ Chí Minh",
+                "hồ Chí minh",
+                "hồ chí Minh",
+                "hồ chí minh",
+                "Ho Chi Minh",
+
                 "Hồ Chủ Tịch",
                 "Hồ Chủ tịch",
                 "Hồ chủ Tịch",
@@ -160,7 +170,11 @@
                 "Văn Ba",
                 "Văn ba",
                 "văn Ba",
-                "văn ba"
+                "văn ba",
+                "Bác Hồ",
+                "Bác hồ",
+                "bác hồ",
+                "bác Hồ"
             ]
         },
         {
@@ -358,15 +372,7 @@
                 "nguyễn thị vịnh",
                 "nguyễn Thị Vịnh",
 
-                "Nguyen Thi Vinh",
-                "Nguyen Thi vinh",
-                "Nguyen thi Vinh",
-                "Nguyen thi vinh",
-
-                "nguyen Thi Vinh",
-                "nguyen Thi vinh",
-                "nguyen thi Vinh",
-                "nguyen thi vinh"
+                "Nguyen Thi Vinh"
             ]
         }
     ]

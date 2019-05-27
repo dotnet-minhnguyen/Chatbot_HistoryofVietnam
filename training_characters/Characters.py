@@ -28,7 +28,7 @@ model_characters = tflearn.DNN(
 
 model_characters.load('./training_characters/model.tflearn')
 
-ERROR_THRESHOLD_ = 0.5
+ERROR_THRESHOLD_ = 0.8
 
 
 def characters(sentence):

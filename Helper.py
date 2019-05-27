@@ -12,6 +12,7 @@ def clean_up(sentence):
 # bag of words
 def bow(sentence, words, show_details=False):
     sentence_words = clean_up(sentence)
+    # sentence_words = word_tokenize(sentence)
     # bag of words
     bag = [0]*len(words)
     for s in sentence_words:

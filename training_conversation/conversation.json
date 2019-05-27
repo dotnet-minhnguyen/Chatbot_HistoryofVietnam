@@ -10,14 +10,19 @@
                 "À nhon",
                 "Hi",
                 "Hello",
-                "2"
+                "2",
+                "ê",
+                "này",
+                "hellu",
+                ".",
+                "nè",
+                "hỏi cái"
             ],
             "responses": [
                 "Xin chào",
                 "Chào bạn",
                 "Hi",
-                "Mình giúp gì được cho bạn?",
-                "Bạn cần hỏi thông tin của nhân vật lịch sử nào ?"
+                "Mình giúp gì được cho bạn?"
             ]
         },
         {
@@ -42,11 +47,51 @@
                 "Thank you",
                 "Hay gê",
                 "Hay ha",
-                "Cảm ơn"
+                "Cảm ơn",
+                "Hay vãi"
             ],
             "responses": [
                 "hihi cảm ơn",
                 "Hay không, hahah"
+            ]
+        },
+        {
+            "tag": "characters",
+            "patterns": [
+                "Nguyễn Trãi",
+                "An Dương Vương",
+                "Cao Bá Quát",
+                "Thục Phán",
+                "Cao Chu Thần",
+                "Cao Tử",
+                "Đinh Bộ Lĩnh",
+                "Đinh Tiên Hoàng",
+                "Đại Thắng Minh Hoàng Đế",
+                "Đinh Hoàn",
+                "Tiên Hoàng Đế",
+                "Hồ Chí Minh",
+                "Hồ Chủ Tịch",
+                "Nguyễn Sinh Cung",
+                "Bác Hồ",
+                "Nguyễn Tất Thành",
+                "Paul Tất Thành",
+                "Nguyễn Ái Quốc",
+                "Văn Ba",
+                "Hồ Quý Ly",
+                "Hồ Nhất Nguyên",
+                "Lê Quý Ly",
+                "Hồ Nhất Nguyên",
+                "Lê Đại Hành",
+                "Lê Hoàn",
+                "Thiên Phúc",
+                "Ứng Thiên",
+                "Lê Thái Tổ",
+                "Lê Lợi",
+                "Ức Trai",
+                "Nguyễn Thị Minh Khai",
+                "Nguyễn Thị Vịnh"
+            ],
+            "responses": [
             ]
         },
         {
@@ -147,28 +192,9 @@
                 "sinh ra vào tháng nào",
                 "sinh ra vào năm mấy",
                 "sinh ra vào tháng mấy",
-
-                "đẻ ra ngày nào",
-                "đẻ ra ngày mấy",
-                "đẻ ra lúc nào",
-                "đẻ ra vào lúc nào",
-                "đẻ ra khi nào",
-                "đẻ ra vào khi nào",
-                "đẻ ra thời điểm nào",
-                "đẻ ra vào thời gian nào",
-                "đẻ ra vào năm nào",
-                "đẻ ra vào năm mấy",
-
-                "đẻ ngày nào",
-                "đẻ ngày mấy",
-                "đẻ lúc nào",
-                "đẻ vào lúc nào",
-                "đẻ khi nào",
-                "đẻ vào khi nào",
-                "đẻ thời điểm nào",
-                "đẻ vào thời gian nào",
-                "đẻ vào năm nào",
-                "đẻ vào năm mấy",
+                "sinh vào ngày bao nhiêu",
+                "sinh vào tháng bao nhiêu",
+                "sinh vào năm bao nhiêu",
 
                 "sinh vào ngày nào",
                 "sinh khi nào",
@@ -180,6 +206,9 @@
                 "sinh vào tháng nào",
                 "sinh vào năm mấy",
                 "sinh vào tháng mấy",
+                "sinh vào ngày bao nhiêu",
+                "sinh vào tháng bao nhiêu",
+                "sinh vào năm bao nhiêu",
 
                 "ngày sinh ngày nào",
                 "ngày sinh ngày mấy",
@@ -192,6 +221,9 @@
                 "ngày sinh vào năm nào",
                 "ngày sinh vào năm mấy",
                 "ngày sinh của",
+                "ngày sinh ngày bao nhiêu",
+                "ngày sinh tháng bao nhiêu",
+                "ngày sinh năm bao nhiêu",
 
                 "ra đời ngày nào",
                 "ra đời ngày mấy",
@@ -202,7 +234,10 @@
                 "ra đời thời điểm nào",
                 "ra đời vào thời gian nào",
                 "ra đời vào năm nào",
-                "ra đời vào năm mấy",
+                "ra đời ngày bao nhiêu",
+                "ra đời ngày bao nhiêu",
+                "ra đời tháng bao nhiêu",
+                "ra đời năm bao nhiêu",
 
                 "lọt lòng ngày nào",
                 "lọt lòng ngày mấy",
@@ -214,6 +249,9 @@
                 "lọt lòng vào thời gian nào",
                 "lọt lòng vào năm nào",
                 "lọt lòng vào năm mấy",
+                "lọt lòng ngày bao nhiêu",
+                "lọt lòng tháng bao nhiêu",
+                "lọt lòng năm bao nhiêu",
 
                 "chào đời ngày nào",
                 "chào đời ngày mấy",
@@ -225,6 +263,9 @@
                 "chào đời vào thời gian nào",
                 "chào đời vào năm nào",
                 "chào đời vào năm mấy",
+                "chào đời năm bao nhiêu",
+                "chào đời tháng bao nhiêu",
+                "chào đời ngày bao nhiêu",
 
                 "sinh nhật ngày nào",
                 "sinh nhật ngày mấy",
@@ -236,6 +277,37 @@
                 "sinh nhật vào thời gian nào",
                 "sinh nhật vào năm nào",
                 "sinh nhật vào năm mấy",
+                "sinh nhật ngày bao nhiêu",
+                "sinh nhật tháng bao nhiêu",
+                "sinh nhật năm bao nhiêu",
+
+                "đẻ ra ngày nào",
+                "đẻ ra ngày mấy",
+                "đẻ ra lúc nào",
+                "đẻ ra vào lúc nào",
+                "đẻ ra khi nào",
+                "đẻ ra vào khi nào",
+                "đẻ ra thời điểm nào",
+                "đẻ ra vào thời gian nào",
+                "đẻ ra vào năm nào",
+                "đẻ ra vào năm mấy",
+                "đẻ ra ngày bao nhiêu",
+                "đẻ ra tháng bao nhiêu",
+                "đẻ ra năm bao nhiêu",
+
+                "đẻ ngày nào",
+                "đẻ ngày mấy",
+                "đẻ lúc nào",
+                "đẻ vào lúc nào",
+                "đẻ khi nào",
+                "đẻ vào khi nào",
+                "đẻ thời điểm nào",
+                "đẻ vào thời gian nào",
+                "đẻ vào năm nào",
+                "đẻ vào năm mấy",
+                "đẻ ngày bao nhiêu",
+                "đẻ tháng bao nhiêu",
+                "đẻ năm bao nhiêu",
 
                 "thông tin về ngày sinh của",
                 "thông tin về sinh nhật của",
@@ -254,6 +326,7 @@
                 "thông tin về thời điểm sinh ra đời của",
                 "thông tin về thời điểm chào đời của",
 
+                
                 "mất ngày nào",
                 "mất ngày mấy",
                 "mất lúc nào",
@@ -265,6 +338,9 @@
                 "mất vào năm nào",
                 "mất vào năm mấy",
                 "mất vào ngày tháng năm nào",
+                "mất ngày bao nhiêu",
+                "mất tháng bao nhiêu",
+                "mất năm bao nhiêu",
 
                 "chết ngày nào",
                 "chết ngày mấy",
@@ -277,6 +353,9 @@
                 "chết vào năm nào",
                 "chết vào năm mấy",
                 "chết vào ngày tháng năm nào",
+                "chết ngày bao nhiêu",
+                "chết tháng bao nhiêu",
+                "chết năm bao nhiêu",
 
                 "viên tịch ngày nào",
                 "viên tịch ngày mấy",
@@ -289,6 +368,9 @@
                 "viên tịch vào năm nào",
                 "viên tịch vào năm mấy",
                 "viên tịch vào ngày tháng năm nào",
+                "viên tịch ngày bao nhiêu",
+                "viên tịch tháng bao nhiêu",
+                "viên tịch năm bao nhiêu",
 
                 "hi sinh ngày nào",
                 "hi sinh ngày mấy",
@@ -301,6 +383,9 @@
                 "hi sinh vào năm nào",
                 "hi sinh vào năm mấy",
                 "hi sinh vào ngày tháng năm nào",
+                "hi sinh ngày bao nhiêu",
+                "hi sinh tháng bao nhiêu",
+                "hi sinh năm bao nhiêu",
 
                 "tử vong ngày nào",
                 "tử vong ngày mấy",
@@ -313,6 +398,9 @@
                 "tử vong vào năm nào",
                 "tử vong vào năm mấy",
                 "tử vong vào ngày tháng năm nào",
+                "tử vong ngày bao nhiêu",
+                "tử vong tháng bao nhiêu",
+                "tử vong năm bao nhiêu",
 
                 "từ trần ngày nào",
                 "từ trần ngày mấy",
@@ -325,6 +413,9 @@
                 "từ trần vào năm nào",
                 "từ trần vào năm mấy",
                 "từ trần vào ngày tháng năm nào",
+                "từ trần ngày bao nhiêu",
+                "từ trần tháng bao nhiêu",
+                "từ trần năm bao nhiêu",
 
                 "hy sinh ngày nào",
                 "hy sinh ngày mấy",
@@ -337,6 +428,9 @@
                 "hy sinh vào năm nào",
                 "hy sinh vào năm mấy",
                 "hy sinh vào ngày tháng năm nào",
+                "hy sinh ngày bao nhiêu",
+                "hy sinh tháng bao nhiêu",
+                "hy sinh năm bao nhiêu",
 
                 "qua đời ngày nào",
                 "qua đời ngày mấy",
@@ -349,6 +443,10 @@
                 "qua đời vào năm nào",
                 "qua đời vào năm mấy",
                 "qua đời vào ngày tháng năm nào",
+                "qua đời ngày bao nhiêu",
+                "qua đời tháng bao nhiêu",
+                "qua đời năm bao nhiêu",
+                
 
                 "quy tiên ngày nào",
                 "quy tiên ngày mấy",
@@ -361,6 +459,9 @@
                 "quy tiên vào năm nào",
                 "quy tiên vào năm mấy",
                 "quy tiên vào ngày tháng năm nào",
+                "quy tiên ngày bao nhiêu",
+                "quy tiên tháng bao nhiêu",
+                "quy tiên năm bao nhiêu",
 
                 "mất mạng ngày nào",
                 "mất mạng ngày mấy",
@@ -373,6 +474,9 @@
                 "mất mạng vào năm nào",
                 "mất mạng vào năm mấy",
                 "mất mạng vào ngày tháng năm nào",
+                "mất mạng ngày bao nhiêu",
+                "mất mạng tháng bao nhiêu",
+                "mất mạng năm bao nhiêu",
 
                 "ngày cuối cùng còn sống ngày nào",
                 "ngày cuối cùng còn sống ngày mấy",
@@ -385,6 +489,7 @@
                 "ngày cuối cùng còn sống vào năm nào",
                 "ngày cuối cùng còn sống vào năm mấy",
                 "ngày cuối cùng còn sống vào ngày tháng năm nào",
+                "tử vong",
 
                 "thông tin về ngày mất của",
                 "thông tin về ngày viên tịch của",
@@ -592,6 +697,7 @@
                 "danh hiệu đạt được",
                 "thông tin về danh hiệu",
 
+                "lĩnh vực",
                 "lĩnh vực của",
                 "lĩnh vực là gì",
                 "thông tin về lĩnh vực",
@@ -633,11 +739,55 @@
                 "tía là người nào",
                 "tía là ông nào",
 
+                "thân phụ của",
+                "thân phụ là ai",
+                "thông tin về thân phụ",
+                "thân phụ là người nào",
+                "thân phụ là ông nào",
+
                 "mẹ của",
                 "mẹ là ai",
                 "thông tin về mẹ",
                 "mẹ là người nào",
                 "mẹ là bà nào",
+
+                "thân mẫu của",
+                "thân mẫu là ai",
+                "thông tin về thân mẫu",
+                "thân mẫu là người nào",
+                "thân mẫu là bà nào",
+
+                "thân phụ thân mẫu của",
+                "thân phụ thân mẫu là ai",
+                "thông tin về thân phụ thân mẫu",
+                "thân phụ thân mẫu là người nào",
+
+                "thân mẫu thân phụ của",
+                "thân mẫu thân phụ là ai",
+                "thông tin về thân mẫu thân phụ",
+                "thân mẫu thân phụ là người nào",
+
+                "mẫu thân phụ thân của",
+                "mẫu thân phụ thân là ai",
+                "thông tin về mẫu thân phụ thân",
+                "mẫu thân phụ thân là người nào",
+
+                "phụ thân mẫu thân của",
+                "phụ thân mẫu thân là ai",
+                "thông tin về phụ thân mẫu thân",
+                "phụ thân mẫu thân là người nào",
+
+                "mẫu thân của",
+                "mẫu thân là ai",
+                "thông tin về mẫu thân",
+                "mẫu thân là người nào",
+                "mẫu thân là bà nào",
+
+                "phụ thân của",
+                "phụ thân là ai",
+                "thông tin về phụ thân",
+                "phụ thân là người nào",
+                "phụ thân là ông nào",
 
                 "má của",
                 "má là ai",
@@ -664,6 +814,10 @@
                 "bố mẹ của",
                 "bố mẹ là ai",
                 "thông tin về bố mẹ",
+
+                "cha mẹ của",
+                "cha mẹ là ai",
+                "thông tin về cha mẹ",
 
                 "ba má của",
                 "ba má là ai",

@@ -2,7 +2,7 @@
 
 Usage :
 
-**Console**
+**Consoles**
 
 ```
     $ python input.py

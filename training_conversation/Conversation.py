@@ -29,7 +29,7 @@ model_conversation = tflearn.DNN(
 
 model_conversation.load('./training_conversation/model.tflearn')
 
-ERROR_THRESHOLD = 0.85
+ERROR_THRESHOLD = 0.75
 
 def classify(sentence):
     results = model_conversation.predict(
