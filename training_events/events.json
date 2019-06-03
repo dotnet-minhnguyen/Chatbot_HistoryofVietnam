@@ -1,0 +1,164 @@
+{
+    "events": [
+        {
+            "name":"Cuộc khởi nghĩa Hai Bà Trưng",
+            "patterns":[
+                "cuộc khởi nghĩa của Hai Bà Trưng",
+                "cuộc khởi nghĩa của hai bà trưng",
+                "cuộc khởi nghĩa của Trưng Trắc và Trưng Nhị",
+                "cuộc khởi nghĩa của trưng trắc và trưng nhị",
+                "cuộc khởi nghĩa của Trưng Nữ Vương",
+                "cuộc khởi nghĩa của trưng nữ vương",
+
+                "trận chiến của Hai Bà Trưng",
+                "trận chiến của hai bà trưng",
+                "trận chiến của Trưng Trắc và Trưng Nhị",
+                "trận chiến của trưng trắc và trưng nhị",
+                "trận chiến của Trưng Nữ Vương",
+                "trận chiến của trưng nữ vương",
+
+                "trận đánh của Hai Bà Trưng",
+                "trận đánh của hai bà trưng",
+                "trận đánh của Trưng Trắc và Trưng Nhị",
+                "trận đánh của trưng trắc và trưng nhị",
+                "trận đánh của Trưng Nữ Vương",
+                "trận đánh của trưng nữ vương",
+
+                "cuộc tân công của Hai Bà Trưng",
+                "cuộc tân công của hai bà trưng",
+                "cuộc tân công của Trưng Trắc và Trưng Nhị",
+                "cuộc tân công của trưng trắc và trưng nhị",
+                "cuộc tân công của Trưng Nữ Vương",
+                "cuộc tân công của trưng nữ vương",
+
+                "cuộc chiến tranh của Hai Bà Trưng",
+                "cuộc chiến tranh của hai bà trưng",
+                "cuộc chiến tranh của Trưng Trắc và Trưng Nhị",
+                "cuộc chiến tranh của trưng trắc và trưng nhị",
+                "cuộc chiến tranh của Trưng Nữ Vương",
+                "cuộc chiến tranh của trưng nữ vương"
+            ]
+        },
+        {
+            "name":"Loạn 12 sứ quân",
+            "patterns":[
+                "loạn 12 sứ quân",
+                "Loạn 12 Sứ Quân",
+                "cuộc chiến loạn 12 sứ quân",
+                "trận đánh loạn 12 sứ quân",
+                "trận chiến loạn 12 sứ quân",
+                "cuộc chiến Loạn 12 Sứ Quân",
+                "trận đánh Loạn 12 Sứ Quân",
+                "trận chiến Loạn 12 Sứ Quân",
+                "thập nhị sứ quân tranh trưởng",
+                "thập nhị sứ quân chi loạn"
+            ]
+        },
+        {
+            "name":"Chiến thắng Điện Biên Phủ",
+            "patterns":[
+                "chiến thắng Điện Biên Phủ",
+                "chiến thắng điện biên phủ",
+                "chiến dịch Điện Biên Phủ",
+                "chiến dịch điện biên phủ",
+                "trận chiến Điên Biên Phủ",
+                "trận chiến điện biên phủ",
+                "Điện Biên Phủ",
+                "cuộc chiến Điên Biên Phủ",
+                "cuộc chiến điện biên phủ",
+                "chiến tranh Điên Biên Phủ",
+                "chiến tranh điện biên phủ"
+
+            ]
+        },
+        {
+            "name":"Bạch Đằng chiến",
+            "patterns":[
+                "trận Bạch Đằng",
+                "trận bạch đằng",
+                "Bạch Đằng Chiến",
+                "Bạch Đằng chiến",
+                "bạch đằng chiến",
+                "chiến thắng Ngô Quyền trên sông Bạch Đằng",
+                "chiến thắng trên sông Bạch Đằng",
+                "chiến thắng trên sống bạch đằng",
+                "chiến thắng Bạch Đằng",
+                "chiến thắng bạch đằng",
+                "chiến thắng của Ngô Quyền",
+                "chiến thắng của ngô quyền",
+                "thuỷ chiến sông Bạch Đằng",
+                "thuỷ chiến sông bạch đằng",
+                "Ngô Quyền chiến thắng trên sông Bạch Đằng",
+                "ngô quyền chiến thắng trên sông bạch đằng"
+            ]
+        },
+        {
+            "name":"Khởi nghĩa Lý Bí",
+            "patterns":[
+                "khởi nghĩa Lý Bí",
+                "khởi nghĩa lý bí",
+                "khởi nghĩa Lý Bôn",
+                "khởi nghĩa lý bôn",
+                "khởi nghĩa Lý Nam Đế",
+                "khởi nghĩa lý nam đế"
+            ]
+        },
+        {
+            "name":"Quân Nguyên xâm lược Đại Việt lần thứ hai",
+            "patterns":[
+                "quân Nguyên xâm lược Đại Việt lần thứ hai",
+                "quân Nguyên xâm lược Đại Việt lần thứ 2",
+                "chiến tranh Nguyên Mông Đại Việt lần 2",
+                "cuộc kháng chiến chống Nguyên Mông lần thứ hai",
+                "nhà Nguyên xâm lược Đại Việt lần hai",
+                "nhà Nguyên xâm lược Đại Việt lần 2",
+
+                "quân nguyên xâm lược đại việt lần thứ hai",
+                "quân nguyên xâm lược đại việt lần thứ 2",
+                "chiến tranh nguyên mông đại việt lần 2",
+                "cuộc kháng chiến chống nguyên mông lần thứ hai",
+                "cuộc kháng chiến chống nguyên mông lần thứ 2",
+                "nhà nguyên xâm lược đại việt lần hai",
+                "nhà nguyên xâm lược đại việt lần 2"
+            ]
+        },
+        {
+            "name":"Quân Nguyên xâm lược Đại Việt lần thứ ba",
+            "patterns":[
+                "quân Nguyên xâm lược Đại Việt lần thứ ba",
+                "quân Nguyên xâm lược Đại Việt lần thứ 3",
+                "chiến tranh Nguyên Mông Đại Việt lần 3",
+                "cuộc kháng chiến chống Nguyên Mông lần thứ ba",
+                "nhà Nguyên xâm lược Đại Việt lần ba",
+                "nhà Nguyên xâm lược Đại Việt lần 3",
+
+                "quân nguyên xâm lược đại việt lần thứ ba",
+                "quân nguyên xâm lược đại việt lần thứ 3",
+                "chiến tranh nguyên mông đại việt lần 3",
+                "cuộc kháng chiến chống nguyên mông lần thứ ba",
+                "cuộc kháng chiến chống nguyên mông lần thứ 3",
+                "nhà nguyên xâm lược đại việt lần ba",
+                "nhà nguyên xâm lược đại việt lần 3"
+            ]
+        },
+        {
+            "name":"Trận Ngọc Hồi – Đống Đa",
+            "patterns":[
+                "vua Quang Trung đại phá 29 vạn quân Thanh",
+                "vua quang trung đại phá 29 vạn quân thanh",
+                "vua Quang Trung đại phá quân Thanh",
+                "vua quang trung đại phá quân thanh",
+                "trận Ngọc Hồi Đống Đa",
+                "trận ngọc hồi đống đa",
+                "chiến thắng Kỷ Dậu",
+                "chiến thắng kỷ dậu",
+                "trận Ngọc Hồi Khương Thượng",
+                "trận ngọc hồi khương lượng",
+                "chiến thắng kỷ dậu 1789",
+                "chiến thắng Kỷ Dậu 1789",
+                "đại phá quân Mãn Thanh",
+                "đại phá quân mãn thanh"
+            ]
+        }
+    ]
+}

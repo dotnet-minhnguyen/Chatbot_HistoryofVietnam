@@ -39,6 +39,6 @@ def handleInput(sentence):
     # text_lower = sentence.lower()
     text_strip = sentence.strip()
     text_whitespace = " ".join(text_strip.split())
-    text = re.sub('[<>\/!@#$\|\$\%\^\&\*\_\-\=\_\~\`\+]', '', text_whitespace)
+    text = re.sub('[<>\/!@#$\|\$\%\^\&\*\_\=\_\~\`\+]', '', text_whitespace)
     
     return text

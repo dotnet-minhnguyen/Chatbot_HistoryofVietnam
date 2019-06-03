@@ -8,25 +8,33 @@ import re
 
 from Helper import handleInput
 from training_conversation.Conversation import classify
-from training_typequestion.TypeQuestions import typeQuestion
+from training_typequestion_characters.TypeQuestions import typeQuestion
 from training_characters.Characters import characters
 from GetApi import getLinkGoogle, getLinkWiki
+from training_typequestion_events.TypeEventQuestions import typeEventQuestion
+from training_events.Events import events
 
 # import intents file
 with open('./training_conversation/conversation.json', encoding='utf-8') as json_data:
     intents = json.load(json_data)
 
 # import type question file
-with open('./training_typequestion/typequestion.json', encoding='utf-8') as json_data:
+with open('./training_typequestion_characters/typequestion.json', encoding='utf-8') as json_data:
     type_question = json.load(json_data)
 
-# import answer question file
-with open('./training_typequestion/answerquestion.json', encoding='utf-8') as json_data:
-    answer_question = json.load(json_data)
 
-# import info characters file
+
+# import data characters file
 with open('./data/infoCharacter.json', encoding='utf-8') as json_data:
     infocharacters = json.load(json_data)
+
+# import data event file
+with open('./data/historic_events.json', encoding='utf-8') as json_data:
+    infoevent = json.load(json_data)
+
+# import answer question file
+with open('./training_typequestion_characters/answerquestion.json', encoding='utf-8') as json_data:
+    answer_question = json.load(json_data)
 
 # import characters file
 with open('./training_characters/characters.json', encoding='utf-8') as json_data:
@@ -36,10 +44,13 @@ with open('./training_characters/characters.json', encoding='utf-8') as json_dat
 def response(sentence):
     text = handleInput(sentence)
 
+    # print(text)
     # print(classify(text))
     # print(typeQuestion(text))
     # print(characters(text))
-
+    # print(typeEventQuestion(text))
+    # print(events(text))
+    
     # chuỗi search theo goole or wiki
     if text.find("google") != -1 or text.find("wiki") != -1:
 
@@ -61,11 +72,11 @@ def response(sentence):
     # chuỗi bt
     else:
         # tách chuỗi
-        sentences = re.split(', | - | và', text)
+        sentences = re.split(',|-| và ', text)
         results = classify(text)
-
         if results:
             char_name = ''
+
             # loại câu search theo tên In hoa có dấu
             if results[0][0] == "characters":
                 for charac in characters_name["characters"]:
@@ -84,7 +95,7 @@ def response(sentence):
             # loại câu hỏi
             if results[0][0] == 'questions':
 
-            # xác định nhân vật
+                # xác định nhân vật
                 for item in sentences:
                     if(len(characters(item)) == 0):
                         for charac in characters_name["characters"]:
@@ -136,8 +147,26 @@ def response(sentence):
 
                     return ans
 
-            else:
-                return "Bạn viết thật khó để hiểu :/"
+            temp = 0
+            if results[0][0] == "event":
+                text = text.lower()
+                print(text)
+                for name_event in infoevent['historic_event']:
+                    if (events(text) != []):
+                        if name_event['name'] == events(text)[0][0]:
+                            if typeEventQuestion(text) != []:
+                                return name_event[typeEventQuestion(text)[0][0]]
+                                # print (typeEventQuestion(text))
+                                # print (events(text))
+                            else:
+                                temp +=1
+                    else:
+                        temp +=1
+                if(temp != 0 ):
+                    return "Chưa có dữ liệu :<"
+                    temp = 0
+        else:
+            return "Bạn viết thật khó để hiểu :/"
 
 
 def Result(text):

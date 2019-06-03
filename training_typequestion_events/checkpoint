@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\demo\\Deloysever\\training_typequestion_events\\model.tflearn"
+all_model_checkpoint_paths: "D:\\demo\\Deloysever\\training_typequestion_events\\model.tflearn"

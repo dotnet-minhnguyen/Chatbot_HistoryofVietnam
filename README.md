@@ -58,22 +58,3 @@ Usage :
     $ git commit -am "something like this"
     $ git push heroku master
 ```
-
-
-
-Training data :
-
-### 1. Training Characters
-
-```
-    $ python handleCharacters.py
-```
-
-### 2. Training Conversation
-```
-    $ python handleCommunication.py
-```
-### 3. Training Type-Question
-```
-    $ python handlleTypeQuestions.py
-```
